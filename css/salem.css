@@ -199,7 +199,7 @@ ul {
 @media (max-width: 767px) {
   .header .container .links > li > a {
     padding: 15px;
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 .header .container .links > li > a::before {
@@ -1707,6 +1707,10 @@ ul {
   margin: 0 auto 50px;
   font-size: 40px;
 }
+@media (max-width: 767px) {
+  .stats .container h1 {
+    font-size: 35px;
+  } 
 .stats .content .box {
   background-color: #fff;
   padding: 20px 10px;
