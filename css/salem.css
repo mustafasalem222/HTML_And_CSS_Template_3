@@ -6,8 +6,35 @@
   margin: 0;
   padding: 0;
 }
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: #fff;
+  
+}
+
+/* Handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  width: 20px;
+  
+}
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Cairo", serif;
+  scroll-behavior: smooth;
 }
 .links {
   list-style: none;
@@ -2021,3 +2048,4 @@ ul {
   text-align: center;
 }
 /* End footer */
+}
