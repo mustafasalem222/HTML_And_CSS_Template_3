@@ -8,25 +8,19 @@
 }
 /* Width of the scrollbar */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 16px;
   
 }
 
 /* Track (background) */
 ::-webkit-scrollbar-track {
   background: #fff;
-  
 }
 
 /* Handle (the draggable part) */
 ::-webkit-scrollbar-thumb {
   background: var(--main-color);
-  border-radius: 12px;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
-  -ms-border-radius: 12px;
-  -o-border-radius: 12px;
-  width: 20px;
+  height: 300px;
   
 }
 html {
