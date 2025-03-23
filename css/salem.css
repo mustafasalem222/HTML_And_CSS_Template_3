@@ -1738,6 +1738,7 @@ ul {
   .stats .container h1 {
     font-size: 35px;
   } 
+}
 .stats .content .box {
   background-color: #fff;
   padding: 20px 10px;
@@ -2048,4 +2049,3 @@ ul {
   text-align: center;
 }
 /* End footer */
-}
